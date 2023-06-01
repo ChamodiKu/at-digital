@@ -1,0 +1,392 @@
+
+/*General*/
+section {
+    position: relative;
+    padding: 100px 0;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 20px;
+    gap: 8px;
+
+    position: absolute;
+    width: 212px;
+    height: 38px;
+
+    background: #F28D35;
+    border-radius: 4px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    text-align: center;
+
+    /* identical to box height, or 14px */
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #2B2B2B;
+
+}
+
+.get {
+    left: 125px;
+    top: 275px;
+}
+
+.more {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 20px;
+    /*gap: 8px;*/
+
+    width: 128px;
+    height: 38px;
+
+    background: #F28D35;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+/*menu*/
+/*.text-primary { color: #29ca8e; }*/
+
+#navbar {
+    overflow: hidden;
+}
+.custom-navbar {
+    border-bottom: 0;
+    -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+    padding: 12px 12px;
+    margin-bottom: 0;
+}
+
+.custom-navbar .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.custom-navbar .navbar-nav.navbar-nav-first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0px;
+    gap: 8px;
+
+    /*position: absolute;*/
+    /*width: 1440px;*/
+    /*height: 77px;*/
+    /*left: 77px;*/
+    /*top: 215px;*/
+}
+
+/*.custom-navbar .navbar-nav.navbar-right li a {*/
+/*    padding-right: 12px;*/
+/*    padding-left: 12px;*/
+/*}*/
+
+.custom-navbar .navbar-nav.navbar-right li a .fa {
+    border-radius: 100%;
+    color: #ffffff;
+    /*width: 30px;*/
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.custom-navbar .nav li a {
+    color: #ffffff;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*.custom-navbar .navbar-nav > li > a:hover,*/
+/*.custom-navbar .navbar-nav > li > a:focus {*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*.custom-navbar .nav li a:hover {*/
+/*    background-color: #29ca8e;*/
+/*    color: #ffffff;*/
+/*}*/
+
+/*.custom-navbar .nav li.active > a {*/
+/*    background-color: #29ca8e;*/
+/*    color: #ffffff;*/
+/*}*/
+
+/*.custom-navbar .navbar-toggle {*/
+/*    border: none;*/
+/*    padding-top: 10px;*/
+/*}*/
+
+/*.custom-navbar .navbar-toggle {*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*.custom-navbar .navbar-toggle .icon-bar {*/
+/*    background: #252525;*/
+/*    border-color: transparent;*/
+/*}*/
+
+/*footer*/
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 80px 20px;
+    /*gap: 40px;*/
+
+    /*position: absolute;*/
+    /*width: 1440px;*/
+    /*height: 324px;*/
+    /*left: 99px;*/
+    top: 805px;
+
+    background: #6B3CC9;
+    color: #ffffff;
+}
+
+#footer p {
+    /* Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results. */
+
+    /*width: 413px;*/
+    /*height: 57px;*/
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+
+    /*!* Inside auto layout *!*/
+    /*flex: none;*/
+    /*order: 1;*/
+    /*align-self: stretch;*/
+    /*flex-grow: 0;*/
+
+}
+
+h2 {
+    width: 179px;
+    height: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+hr {
+    width: 630px;
+    height: 0px;
+
+    border: 1px solid #FFFFFF;
+}
+
+span {
+    /*width: 94px;*/
+    /*height: 17px;*/
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.end {
+    align-content: center;
+}
+
+
+
+
+
+.logo {
+    position: absolute;
+    left: 1%;
+    right: 80.44%;
+    top: 5%;
+    bottom: 0%;
+
+    /*background: #FFFFFF;*/
+}
+
+.logo-text {
+    padding-top: 1%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 80px;
+    gap: 8px;
+
+    position: absolute;
+    width: 1440px;
+    height: 77px;
+    left: 77px;
+    right: 512px;
+    top: 215px;
+
+    background: #6B3CC9;
+}
+
+/*.ul {*/
+/*    height: 17px;*/
+/*    font-family: 'Inter';*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-size: 14px;*/
+/*    line-height: 17px;*/
+
+/*    !*color: #FFFFFF;*!*/
+
+/*    flex: none;*/
+/*    order: 0;*/
+/*    flex-grow: 0;*/
+/*}*/
+
+/*background image*/
+#home {
+    padding-bottom: 40%;
+}
+
+@media (min-width: 768px) {
+    .home-slider .col-md-6 {
+        padding-left: 0;
+    }
+}
+
+.backg-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgba(20,20,20,0.2);
+    color: #fff;
+    cursor: e-resize;
+    position: absolute;
+    width: 100%;
+    height: 763px;
+    left: 0px;
+    top: -63px;
+    background-size: cover;
+
+    background-image: url(../images/andy-kelly-0E_vhMVqL9g-unsplash.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 40px 32px;
+    gap: 20px;
+
+    position: absolute;
+    width: 630px;
+    height: 306px;
+    left: 80px;
+    bottom: -350px;
+
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), #FFFFFF;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+
+    /* or 48px */
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.development {
+    text-align: left ;
+    background-color: #FFFFFF;
+    padding-left: 30%;
+    padding-right: 0%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h3 {
+
+    width: 507px;
+    height: 33px;
+
+    /* Poppins/H3 - Poppins 27px - SemiBold */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+
+    /* identical to box height, or 122% */
+    letter-spacing: 0.4px;
+
+    color: #6B3CC9;
+}
+
+.image {
+
+    width: 200px;
+    height: 200px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
